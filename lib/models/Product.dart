@@ -18,52 +18,58 @@ class Product {
 List<Product> products = [
   Product(
       id: 1,
-      title: "Office Mood",
-      price: 244,
-      size: 12,
-      description: dummyText,
+      title: "Полночь",
+      price: 4500,
+      size: 46,
+      description:
+          "Джоггеры выполнены в цветах подходящих для базового гардероба: темно-синий, серый меланж и песочный. Все модели одинаково хорошо подходят как девушкам, так и мужчинам. Обновлённая линейка BASIC.",
       image: "assets/images/bag_1.png",
-      color: Color(0xFF3D82AE)),
+      color: Color(0xFF8494A6)),
   Product(
       id: 2,
-      title: "Belt Bag",
-      price: 1234,
-      size: 8,
-      description: dummyText,
+      title: "Хмурое утро",
+      price: 4500,
+      size: 46,
+      description:
+          "Джоггеры выполнены в цветах подходящих для базового гардероба: темно-синий, серый меланж и песочный. Все модели одинаково хорошо подходят как девушкам, так и мужчинам. Обновлённая линейка BASIC.",
       image: "assets/images/bag_2.png",
-      color: Color(0xFFD3A984)),
+      color: Color(0xFFC5C4C3)),
   Product(
       id: 3,
-      title: "Black Bag",
-      price: 234,
-      size: 10,
-      description: dummyText,
+      title: "Ванильный Мусс",
+      price: 5200,
+      size: 46,
+      description:
+          "Модель выполнена с внутренними карманами в боковых швах. Пояс и низ джоггеров собраны на уплотнённую резинку. Линейка LIMITED.",
       image: "assets/images/bag_3.png",
-      color: Color(0xFF989493)),
+      color: Color(0xFFC8C5C2)),
   Product(
       id: 4,
-      title: "Old Fasion",
-      price: 234,
-      size: 11,
-      description: dummyText,
+      title: "Черный оникс",
+      price: 5200,
+      size: 46,
+      description:
+          "Модель выполнена с внутренними карманами в боковых швах. Пояс и низ джоггеров собраны на уплотнённую резинку. Линейка LIMITED.",
       image: "assets/images/bag_4.png",
-      color: Color(0xFFE6B398)),
+      color: Color(0xFFD2CDCD)),
   Product(
       id: 5,
-      title: "Office Code",
-      price: 234,
-      size: 12,
-      description: dummyText,
+      title: "Ореховый",
+      price: 6500,
+      size: 46,
+      description:
+          "Модель выполнена с внутренними карманами в боковых швах. Пояс и низ джоггеров собраны на уплотнённую резинку. Обновлённая линейка LIMITED.",
       image: "assets/images/bag_5.png",
-      color: Color(0xFFFB7883)),
+      color: Color(0xFFD6C9C1)),
   Product(
       id: 6,
-      title: "Office Code",
-      price: 234,
-      size: 12,
-      description: dummyText,
+      title: "Песочное печенье",
+      price: 4500,
+      size: 46,
+      description:
+          "Джоггеры выполнены в цветах подходящих для базового гардероба: темно-синий, серый меланж и песочный. Все модели одинаково хорошо подходят как девушкам, так и мужчинам. Обновлённая линейка BASIC.",
       image: "assets/images/bag_6.png",
-      color: Color(0xFFAEAEAE)),
+      color: Color(0xFFCCC7BF)),
 ];
 
 String dummyText =

@@ -15,7 +15,7 @@ class Body extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),
           child: Text(
-            "Staff",
+            "Каталог",
             style: Theme.of(context)
                 .textTheme
                 .headline5
@@ -32,7 +32,7 @@ class Body extends StatelessWidget {
                   crossAxisCount: 2,
                   mainAxisSpacing: kDefaultPaddin,
                   crossAxisSpacing: kDefaultPaddin,
-                  childAspectRatio: 0.73,
+                  childAspectRatio: 0.63,
                 ),
                 itemBuilder: (context, index) => ItemCard(
                       product: products[index],
@@ -46,6 +46,7 @@ class Body extends StatelessWidget {
                     )),
           ),
         ),
+        SizedBox(height: kDefaultPaddin / 1),
       ],
     );
   }

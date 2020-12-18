@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       elevation: 0,
       leading: IconButton(
-        icon: SvgPicture.asset("assets/icons/back.svg"),
+        icon: SvgPicture.asset("assets/icons/search.svg"),
         onPressed: () {},
       ),
       actions: <Widget>[
